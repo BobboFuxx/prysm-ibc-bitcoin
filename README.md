@@ -1,7 +1,8 @@
 # prysm-ibc-bitcoin
 Native Bitcoin and IBC Bitcoin for Prysm Network
 
-''prysm-ibc-bitcoin/
+
+```prysm-ibc-bitcoin/
 ├── .env                     # Environment variables
 ├── package.json             # Node.js project configuration
 ├── bitcoinClient.js         # Bitcoin RPC client setup
@@ -12,4 +13,4 @@ Native Bitcoin and IBC Bitcoin for Prysm Network
 ├── services/
 │   ├── depositHandler.js    # Handles Bitcoin deposit events
 │   ├── withdrawalHandler.js # Handles Bitcoin withdrawal requests
-└── README.md                # Documentation''
+└── README.md                # Documentation```
