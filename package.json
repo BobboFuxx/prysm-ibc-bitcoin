@@ -1,0 +1,26 @@
+{
+  "name": "prysm-ibc-bitcoin",
+  "version": "1.0.0",
+  "description": "A project for integrating Bitcoin deposits and withdrawals with an IBC-enabled Cosmos SDK blockchain, Prysm.",
+  "main": "bitcoinClient.js",
+  "scripts": {
+    "start": "node monitorDeposits.js",
+    "generate-address": "node generateAddress.js",
+    "monitor-deposits": "node monitorDeposits.js",
+    "withdraw-funds": "node withdrawFunds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "cosmos-sdk",
+    "ibc",
+    "prysm",
+    "blockchain"
+  ],
+  "author": "Bobbo Fuxx",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nomic-bitcoin-js": "^1.0.0"
+  }
+}
